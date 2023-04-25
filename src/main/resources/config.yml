@@ -1,0 +1,42 @@
+# FlyCheck | Configuration
+# » Report any issues on the forums.
+#
+# Placeholder: %player%
+# » This placeholder will be replaced
+# » with the players username. %player%
+# » will only work under "no-access" and
+# » "yes-access".
+#
+# Command & Permission:
+# » /flycheck | No permissions
+# » /flycheck reload | flycheck.reload
+
+# No permission to execute
+no-permissions: '&7You dont have permissions to execute this command'
+
+# Incorrect usage message when a player doesn't provide a username
+incorrect-usage: '&7Incorrect usage: &f/flycheck [player]'
+
+
+# Player provided isn't online
+not-online: '&7That player needs to be online to be checked!'
+
+
+# Player has access to the /fly command
+yes-access: '&f%player% &7has access to /fly!'
+
+
+# Player doesn't have access to the /fly command
+no-access: '&&f%player% &7does not have access to /fly!'
+
+
+# Message received in console when trying to use /flycheck
+not-player: '&7You are not a player...'
+
+
+# Message after a successful reload
+reload-message-successful: '&7Reload successful'
+
+
+# Message if a player does not have permisson to use /flycheck reload
+reload-no-permission: '&7You do not have permission to execute this command.'

@@ -1,0 +1,17 @@
+name: flycheck
+version: '${version}'
+main: net.sapo.flycheck.Flycheck
+api-version: 1.19
+author: sapo
+commands:
+  flycheck:
+    description: Use it to check if the player has flying permissions
+    usage: /flycheck [playername]
+    aliases:
+      - fc
+permissions:
+  flycheck.fc:
+    description: Allows to check flight
+    default: op
+depend:
+  - Essentials
