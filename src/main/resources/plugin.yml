@@ -1,6 +1,7 @@
 name: flycheck
 version: '${version}'
 main: net.sapo.flycheck.Flycheck
+description: Allows to check if someone has the permission essentials.fly
 api-version: 1.19
 author: sapo
 commands:
