@@ -1,6 +1,4 @@
 # FlyCheck | Configuration
-# » Report any issues on the forums.
-#
 # Placeholder: %player%
 # » This placeholder will be replaced
 # » with the players username. %player%
@@ -8,8 +6,7 @@
 # » "yes-access".
 #
 # Command & Permission:
-# » /flycheck | No permissions
-# » /flycheck reload | flycheck.reload
+# » /flycheck | flycheck.fc
 
 # No permission to execute
 no-permissions: '&7You dont have permissions to execute this command'
